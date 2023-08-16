@@ -19,15 +19,7 @@ export default function Home() {
         <h1>Step into Sneaker Elegance</h1>
       </div>
       <div className="FilterContainer">
-      <button
-          className={`category-button ${activeCategory === 'All' ? 'active' : ''}`}
-          onClick={() => {
-            setShoes(Data);
-            setActiveCategory('All');
-          }}
-        >
-          All
-        </button>
+      
         <button
           className={`category-button ${activeCategory === 'Casuals' ? 'active' : ''}`}
           onClick={() => filterShoes('Casuals')}
@@ -45,6 +37,15 @@ export default function Home() {
           onClick={() => filterShoes('Sports')}
         >
           Sports
+        </button>
+        <button
+          className={`category-button ${activeCategory === 'All' ? 'active' : ''}`}
+          onClick={() => {
+            setShoes(Data);
+            setActiveCategory('All');
+          }}
+        >
+          All
         </button>
       </div>
       <div className="ShoesContainer">
