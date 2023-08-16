@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Sneaker-Realm/static/css/main.50773399.css",
-    "main.js": "/Sneaker-Realm/static/js/main.5deb7549.js",
+    "main.css": "/Sneaker-Realm/static/css/main.c2a6a8e6.css",
+    "main.js": "/Sneaker-Realm/static/js/main.4d7c8f82.js",
     "static/media/loafer2.png": "/Sneaker-Realm/static/media/loafer2.6183cfa2f18ffef6925c.png",
     "static/media/sports4.png": "/Sneaker-Realm/static/media/sports4.68c94cf43d097372b7c9.png",
     "static/media/sports3.png": "/Sneaker-Realm/static/media/sports3.6d8dde116c523b749a50.png",
@@ -16,11 +16,11 @@
     "static/media/shoes1.jpg": "/Sneaker-Realm/static/media/shoes1.4a77a2ef9fd74b4773a7.jpg",
     "static/media/logo.png": "/Sneaker-Realm/static/media/logo.09c885b0d28f3265578b.png",
     "index.html": "/Sneaker-Realm/index.html",
-    "main.50773399.css.map": "/Sneaker-Realm/static/css/main.50773399.css.map",
-    "main.5deb7549.js.map": "/Sneaker-Realm/static/js/main.5deb7549.js.map"
+    "main.c2a6a8e6.css.map": "/Sneaker-Realm/static/css/main.c2a6a8e6.css.map",
+    "main.4d7c8f82.js.map": "/Sneaker-Realm/static/js/main.4d7c8f82.js.map"
   },
   "entrypoints": [
-    "static/css/main.50773399.css",
-    "static/js/main.5deb7549.js"
+    "static/css/main.c2a6a8e6.css",
+    "static/js/main.4d7c8f82.js"
   ]
 }
