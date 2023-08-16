@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Sneaker-Realm/static/css/main.e6a8c9ed.css",
+    "main.js": "/Sneaker-Realm/static/js/main.10d46c08.js",
+    "static/media/loafer2.png": "/Sneaker-Realm/static/media/loafer2.6183cfa2f18ffef6925c.png",
+    "static/media/sports4.png": "/Sneaker-Realm/static/media/sports4.68c94cf43d097372b7c9.png",
+    "static/media/sports3.png": "/Sneaker-Realm/static/media/sports3.6d8dde116c523b749a50.png",
+    "static/media/loafer1.png": "/Sneaker-Realm/static/media/loafer1.62452d45c71487ceca91.png",
+    "static/media/sneaker2.png": "/Sneaker-Realm/static/media/sneaker2.8c56a1d67c9329be2336.png",
+    "static/media/loafer4.png": "/Sneaker-Realm/static/media/loafer4.95fb3ec12895c5e3d7c2.png",
+    "static/media/sports2.png": "/Sneaker-Realm/static/media/sports2.984aea91ea4b158c3837.png",
+    "static/media/sneaker4.png": "/Sneaker-Realm/static/media/sneaker4.015b70ea42b6d3e77498.png",
+    "static/media/loafer3.png": "/Sneaker-Realm/static/media/loafer3.0b1c70b16e530e6a5acd.png",
+    "static/media/sports1.png": "/Sneaker-Realm/static/media/sports1.63f712c78fc42f9f6b1d.png",
+    "static/media/sneaker3.png": "/Sneaker-Realm/static/media/sneaker3.b8cf254e0d32e9b38f9c.png",
+    "static/media/shoes1.jpg": "/Sneaker-Realm/static/media/shoes1.4a77a2ef9fd74b4773a7.jpg",
+    "static/media/logo.png": "/Sneaker-Realm/static/media/logo.09c885b0d28f3265578b.png",
+    "index.html": "/Sneaker-Realm/index.html",
+    "main.e6a8c9ed.css.map": "/Sneaker-Realm/static/css/main.e6a8c9ed.css.map",
+    "main.10d46c08.js.map": "/Sneaker-Realm/static/js/main.10d46c08.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6a8c9ed.css",
+    "static/js/main.10d46c08.js"
+  ]
+}
