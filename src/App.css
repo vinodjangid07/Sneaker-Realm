@@ -191,8 +191,10 @@ body{
   html {
       font-size: 55%;
   }
+ 
   .AboutContainer{
-    padding: 120px 30px 100px 30px;
+    height: fit-content;
+
   }
 }
 
@@ -224,6 +226,16 @@ body{
   .ShoesCategory{
     padding: 0 3px;
   }
+  .AboutContainer{
+    padding: 120px 150px 100px 150px;
+  }
+  
+}
+
+@media screen and (max-width:650px) {
+  .AboutContainer{
+    padding: 120px 50px 200px 50px;
+  }
 }
 
 @media screen and (max-width:500px) {
@@ -238,6 +250,9 @@ body{
   }
   .headingContainer h1{
     font-size: 3rem;
+  }
+  .AboutContainer{
+    padding: 120px 30px 100px 30px;
   }
 }
 
@@ -265,9 +280,7 @@ body{
   html {
       font-size: 40%;
   }
-  .AboutContainer{
-    height: fit-content;
-  }
+  
   .description{
     justify-content: flex-start;
     height: 65px;
