@@ -1,0 +1,208 @@
+/* Navbar Container Styling */
+.navbarContainer{
+    position: fixed;
+    top:0px;
+    width: 100%;
+    height: fit-content;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px 0px 10px;
+    z-index: 9999;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: #ffffff4d;
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 40px;
+}
+/* logo container style */
+.logo{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 4rem;
+    color: black;
+    font-weight: 700;
+}
+.logoImg{
+  height: 60%;
+}
+/* ul container (tabscontainer) style */
+.TabsContainer{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 40px;
+}
+/* li (tabs) style */
+.tabs{
+    list-style: none;
+
+}
+/* navlink (clickable links) style */
+.tabs-link{
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 20px;
+}
+/* active effect on navlinks */
+.active{
+    background-color:rgb(0, 0, 0);
+    color: white;
+}
+
+/* hamburger styling (hidden in Pc) */
+.hamburger {
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    right: 40px;
+  }
+  
+  .hamburger input {
+    display: none;
+
+    z-index: 9999;
+  }
+  
+  .hamburger svg {
+    /* The size of the SVG defines the overall size */
+    height: 4.5em;
+    /* Define the transition for transforming the SVG */
+    transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .line {
+    fill: none;
+    stroke: rgb(0, 0, 0);
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 3;
+    /* Define the transition for transforming the Stroke */
+    transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+                stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .line-top-bottom {
+    stroke-dasharray: 12 63;
+  }
+  
+  .hamburger input:checked + svg {
+    transform: rotate(-45deg);
+  }
+  
+  .hamburger input:checked + svg .line-top-bottom {
+    stroke-dasharray: 20 300;
+    stroke-dashoffset: -32.42;
+  }
+  
+
+  
+/* responsive code below*/
+@media screen and (max-width:1920px) {
+   
+  }
+  
+  @media screen and (max-width:1200px) {
+    
+  }
+
+
+  /* mobile media is starts from here */
+  @media screen and (max-width:998px) {
+    /* navbar's justify-content changed to flex-start to make logo left align */
+   .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+   }
+   .logo img{
+    height: 50%;
+   }
+   /* to customize tabscontainer position in phone */
+    .TabsContainer{
+        z-index: 9998;
+        top: 90px;
+        right:0px;
+        transform: translateX(500px);
+        position: absolute;
+        width: 40%;
+        height: fit-content;
+        background-color: #ffffff6d;
+        backdrop-filter: blur(10px);
+        flex-direction: column;
+        justify-content: center;
+        transition: all .4s;
+        gap: 10px;
+        padding: 10px;
+    }
+    /* making hamburger visible */
+    .hamburger{
+        display: block;
+    }
+    .hamburger svg {
+        /* The size of the SVG defines the overall size */
+        height: 5em;
+      }
+     .tabs{
+      width: 100%;
+     }
+    /* tabcontainer shows -up after hamburger click */
+    .TabsContainerisActive{
+        transform: translate(0);
+    }
+    .tabs-link{
+        display: flex;
+        padding: 0;
+        width:  100%;
+        height: 40px;
+        background-color: #ececec;
+    }
+    .active{
+        background-color: rgb(0, 0, 0);
+    }
+  }
+  
+
+
+
+  
+  @media screen and (max-width:768px) {
+  
+  
+  }
+  
+  @media screen and (max-width:500px) {
+   
+  
+  }
+  
+  @media screen and (max-width:430px) {
+    
+  }
+  
+  @media screen and (max-width:375px) {
+    
+  }
+  @media screen and (max-width:300px) {
+   
+  }
+  
+  /* responsive code above */
+  
+  
